@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
     接入文档：https://docs.qingque.cn/d/home/eZQAPHN3SnfXTs-61wlQoniE_?identityId=1oEEBLW4oKJ
     版本记录：https://docs.qingque.cn/d/home/eZQCnZQhzJvvbCJo9bLPQJDZo?identityId=1oEEBLW4oKJ
                            DESC
-    s.homepage         = 'https://github.com/shuge-developer/KwaiAdsSDK'
+    s.homepage         = 'https://www.kwai.com/'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'shuge-developer' => 'support@shuge.com' }
+    s.author           = { 'sunyonglong' => 'sunyonglong@kuaishou.com' }
     s.source           = { :git => 'https://github.com/shuge-developer/KwaiAdsSDK.git', :tag => "v#{s.version}" }
     s.ios.deployment_target = '12.0'
     s.ios.vendored_frameworks = 'KwaiAdsSDK.xcframework'
