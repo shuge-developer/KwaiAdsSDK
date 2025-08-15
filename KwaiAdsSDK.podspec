@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/shuge-developer/KwaiAdsSDK'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'shuge-developer' => 'support@shuge.com' }
-    s.source           = { :git => 'https://github.com/shuge-developer/KwaiAdsSDK.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/shuge-developer/KwaiAdsSDK.git', :tag => "v#{s.version}" }
     s.ios.deployment_target = '12.0'    
     s.ios.vendored_frameworks = 'KwaiAdsSDK.xcframework'
     s.frameworks = 'Foundation', 'UIKit', 'MobileCoreServices', 'CoreGraphics', 'Security', 'SystemConfiguration', 'CoreTelephony', 'AdSupport', 'CoreData', 'StoreKit', 'AVFoundation', 'MediaPlayer', 'CoreMedia', 'WebKit', 'Accelerate', 'CoreLocation', 'AVKit','MessageUI','QuickLook','AudioToolBox','JavaScriptCore', 'CoreMotion'
