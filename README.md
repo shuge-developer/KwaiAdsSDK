@@ -25,7 +25,7 @@
 在您的 `Podfile` 中添加：
 
 ```ruby
-pod 'KwaiAdsSDK', '~> 1.1.0'
+pod 'KwaiAdsSDK-Shuge', '~> 1.1.0'
 ```
 
 然后运行：
@@ -120,3 +120,7 @@ MIT License
 ## 免责声明
 
 本 SDK 为快手官方 SDK 的第三方分发版本，仅供学习和研究使用。商业使用请遵循快手官方政策。
+
+## 版本说明
+
+本仓库提供 `KwaiAdsSDK-Shuge`，这是快手官方 `KwaiAdsSDK` 的第三方分发版本，通过 CocoaPods 提供更便捷的集成方式。
